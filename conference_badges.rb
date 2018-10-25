@@ -22,3 +22,5 @@ def assign_rooms
   end
   return new_arr
 end 
+
+def 
