@@ -6,7 +6,7 @@ end
 conference_speakers = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
 
 def batch_badge_creator(conference_speakers)
-  conference_speakers.collect {|speaker| badge_maker(speaker)}
+  conference_speakers.collect do {|speaker| badge_maker(speaker)}
 end
 
 def assign_rooms(conference_speakers)
