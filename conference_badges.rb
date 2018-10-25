@@ -1,6 +1,6 @@
 # Write your code here.
-def badge_maker(speaker) 
-  puts "Hello, my name is #{speaker}."
+def badge_maker(name) 
+  puts "Hello, my name is #{name}."
 end
 
 conference_speakers = ["Edsger","Ada","Charles","Alan","Grace","Linus","Matz"]
@@ -21,4 +21,4 @@ end
  assign_rooms(speakers).each do |assignment|
   puts assignment
  end
-end
+end 
