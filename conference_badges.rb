@@ -13,22 +13,22 @@ def batch_badge_creator(conference_speakers)
   return new_arr
 end
 
-def assign_rooms
+def assign_rooms(conference_speakers)
   new_arr = []
   counter = 1 
-  array.each do |name|
+  conference_speakers.each do |name|
     new_arr.push("Hello, #{name}! You'll be assigned to room #{counter}!")
     counter += 1 
   end
   return new_arr
 end 
 
-def printer(array)
-  batch_badge_creator(array).each do |badge|
+def printer(conference_speakers)
+  batch_badge_creator(conference_speakers).each do |badge|
     puts badge
   end
   
-  assign_rooms(array).each do |badge|
+  assign_rooms(conference_speakers).each do |badge|
     puts badge
   end
 end
