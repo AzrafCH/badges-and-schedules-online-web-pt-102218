@@ -15,4 +15,5 @@ end
 
 def assign_rooms
   new_arr = []
-  
+  counter = 1 
+  array.each do |
