@@ -7,6 +7,7 @@ end
 
 def batch_badge_creator(array)
   new_arr = []
-  conference_speakers.collect {|conference_speaker| return badgemaker(conference_speakers)}
+  array.each do |name|
+    return 
 end
 end
